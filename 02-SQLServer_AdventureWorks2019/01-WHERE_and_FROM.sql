@@ -5,7 +5,7 @@ DATABASE: AdventureWorks2019
 COURSE: Microsoft SQL Server For Beginners | Zero to Hero (UDEMY) 
 */
 
--- Advanced query statements  ||  Sentencias avanzadas de consulta
+-- Query statements  ||  Sentencias de consulta
 SELECT LoginID, JobTitle, BirthDate, MaritalStatus, Gender FROM HumanResources.Employee;
 SELECT LoginID, JobTitle, BirthDate, MaritalStatus, Gender FROM HumanResources.Employee WHERE JobTitle = 'Research and Development Manager';
 
